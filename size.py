@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import wx
+import os
 
 class Example(wx.Frame):
            
