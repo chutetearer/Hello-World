@@ -13,9 +13,9 @@ class Example(wx.Frame):
     def InitUI(self):
 
         self.Bind(wx.EVT_SIZE, self.OnSize)
-        self.SetSizeHints(minW=250, minH=150, maxW=800, maxH=450, incW=-1, incH=-1)
+        self.SetSizeHints(minW = 250, minH = 150, maxW = 800, maxH = 450, incW = -1, incH = -1)
         self.SetSize((250, 380))
-        self.SetTitle('Size event Test')
+        self.SetTitle('Size Event Test- EVT')
         self.Centre()
         self.Show(True)  
 
